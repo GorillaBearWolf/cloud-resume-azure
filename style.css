@@ -18,12 +18,12 @@ body
 {
     position: relative;
     width: 100%;
-    max-width: 1000px;
+    max-width: 100%;
     min-height: 100px;
     background: #fff;
     margin: 50px;
     display: grid;
-    grid-template-columns: 500px 500px;
+    grid-template-columns: 50% 50%;
     box-shadow: 0 35px 55px rgba(0,0,0,0.1);
 }
 .container .left_Side
