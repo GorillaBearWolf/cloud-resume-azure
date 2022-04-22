@@ -5,4 +5,4 @@
 - HTML/CSS
 - MacBook Pro/Air, iPad Pro
 - Github.com
-- Gitpod.io.jhlkjhlhljh
+- Gitpod.io
