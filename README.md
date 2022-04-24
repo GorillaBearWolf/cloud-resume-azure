@@ -4,5 +4,11 @@
 
 - HTML/CSS
 - MacBook Pro/Air, iPad Pro
+- Microsoft Azure
 - Github.com
 - Gitpod.io
+- Namecheap
+
+## Links
+
+- [https://acloudguru.com/blog/engineering/cloudguruchallenge-your-resume-in-azure](https://acloudguru.com/blog/engineering/cloudguruchallenge-your-resume-in-azure)
