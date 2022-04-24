@@ -11,8 +11,8 @@ jobs:
     - uses: azure/login@v1
       with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
-          
-- name: Upload to blob storage
+
+    - name: Upload to blob storage
       uses: azure/CLI@v1
       with:
         inlineScript: |
@@ -23,7 +23,6 @@ jobs:
         inlineScript: |
            az cdn endpoint purge --content-paths  "/*" --profile-name "gbw-cloud-resume" --name "https://gbw-cloud-resume.azureedge.net" --resource-group "cloud-resume"
            
- # Azure logout
     - name: logout
       run: |
             az logout
