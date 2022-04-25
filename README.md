@@ -12,3 +12,4 @@
 ## Links
 
 - [https://acloudguru.com/blog/engineering/cloudguruchallenge-your-resume-in-azure](https://acloudguru.com/blog/engineering/cloudguruchallenge-your-resume-in-azure)
+- [https://gbwblob1.z13.web.core.windows.net/]
