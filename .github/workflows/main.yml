@@ -19,7 +19,7 @@ jobs:
       uses: azure/CLI@v1
       with:
         inlineScript: |
-           az cdn endpoint purge --content-paths  '/*' --profile-name cloud-resume --name gbw-cloud-resume.azureedge.net --resource-group cloud-resume
+           az cdn endpoint purge --content-paths  '/*' --profile-name cloud-resume --name gbw-cloud-resume --resource-group cloud-resume
     - name: logout
       run: |
             az logout
