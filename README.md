@@ -8,8 +8,10 @@
 - Github.com
 - Gitpod.io
 - Namecheap
+- ACloudGuru
+- FontAwesome
 
 ## Links
 
-- [https://acloudguru.com/blog/engineering/cloudguruchallenge-your-resume-in-azure](https://acloudguru.com/blog/engineering/cloudguruchallenge-your-resume-in-azure)
-- [https://gbwblob1.z13.web.core.windows.net/]
+- [Azure CDN Endpoint](https://gbwblob1.z13.web.core.windows.net/)
+- [ACloudGuru Cloud Resume Challenge](https://acloudguru.com/blog/engineering/cloudguruchallenge-your-resume-in-azure)
