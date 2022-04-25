@@ -14,15 +14,15 @@ Security should always be first.
 ## CORE QUALIFICATIONS
 
 - Client Relationships
-- Team Building
-- Leadership
-- Group Communication
 - Project Management
+- Leadership
+- Team Building
 - Cloud Infrastructure
-- Endpoint Management
+- Cybersecurity
 - System Analysis
 - Solution Design
 - Root Cause Analysis
+- Endpoint Management
 
 ## CERTIFICATIONS
 
