@@ -146,6 +146,25 @@ body {
     font-weight: 300;
 }
 
+.contactInfo.awards li {
+    margin-bottom: 15px;
+}
+
+.contactInfo.awards h5 {
+    color: #03a9f4;
+    font-weight: 500;
+}
+
+.contactInfo.awards h4:nth-child(1) {
+    color: #fff;
+    font-weight: 500;
+}
+
+.contactInfo.awards h4 {
+    color: #fff;
+    font-weight: 300;
+}
+
 .container .right_Side {
     position: relative;
     background: #fff;
@@ -208,7 +227,7 @@ p {
 .skills ul li .fa-solid {
     color: #03a9f4;
     font-size: 18px;
-    width: 20px;
+    width: 30px;
 }
 
 @media (max-width: 1000px) {
