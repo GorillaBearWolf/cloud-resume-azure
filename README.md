@@ -23,4 +23,4 @@
 
 - Added overwrite to build script
 - Manually adjusted photo to fit frame
-- Configured Azure DNS instead of domain registrar
+- Configured Azure DNS in place of domain registrar
