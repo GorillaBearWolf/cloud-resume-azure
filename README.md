@@ -17,6 +17,7 @@
 - Namecheap
 - ACloudGuru
 - FontAwesome
+- Snyk
 
 ## Notes
 
