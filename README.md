@@ -11,6 +11,7 @@
 - HTML/CSS
 - MacBook Pro/Air, iPad Pro
 - Microsoft Azure
+- Azure Storage Explorer
 - Github.com
 - Gitpod.io
 - Namecheap
