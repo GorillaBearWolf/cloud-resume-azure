@@ -14,7 +14,7 @@ jobs:
       uses: azure/CLI@v1
       with:
         inlineScript: |
-            az storage blob upload-batch --pattern [!.git*] --overwrite=true --account-name gbwblob1 --auth-mode key -d '$web' -s .
+            az storage blob upload-batch --overwrite=true --pattern '[!.git*]' --account-name gbwblob1 --auth-mode key -d '$web' -s .
     - name: Purge CDN endpoint
       uses: azure/CLI@v1
       with:
