@@ -19,7 +19,12 @@ jobs:
       uses: azure/CLI@v1
       with:
         inlineScript: |
-            az storage blob delete-batch --account-name gbwblob1 --auth-mode key -s '$web' --pattern '.git*' --pattern '*.md' --delete-snapshots include
+            az storage blob delete-batch --account-name gbwblob1 --auth-mode key -s '$web' --pattern '.git*' --delete-snapshots include
+    - name: Delete md content
+      uses: azure/CLI@v1
+      with:
+        inlineScript: |
+            az storage blob delete-batch --account-name gbwblob1 --auth-mode key -s '$web' --pattern '*.md' --delete-snapshots include
     - name: Purge CDN endpoint
       uses: azure/CLI@v1
       with:
