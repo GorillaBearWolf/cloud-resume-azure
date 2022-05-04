@@ -2,7 +2,7 @@
 
 ## Todo
 
-- [ ] Configure HTTPS for domains
+- [ ] LetsEncrypt CSR for root domain
 - [ ] Add web.config file
 - [ ] Create subdomains
 
@@ -23,7 +23,7 @@
 
 - Added overwrite to build script
 - Manually adjusted photo to fit frame
-- Configured Azure DNS in place of domain registrar
+- Configured Azure DNS in place of Namecheap
 
 ## Links
 
