@@ -15,11 +15,16 @@ jobs:
       with:
         inlineScript: |
             az storage blob upload-batch --overwrite=true --account-name gbwblob1 --auth-mode key -d '$web' -s .
-    - name: Delete extra content
+    - name: Delete .* content
       uses: azure/CLI@v1
       with:
         inlineScript: |
-            az storage blob delete-batch --account-name gbwblob1 --auth-mode key -s '$web' --pattern '.*' --pattern '*.md' --delete-snapshots include
+            az storage blob delete-batch --account-name gbwblob1 --auth-mode key -s '$web' --pattern '.*' --delete-snapshots include
+    - name: Delete .md files
+      uses: azure/CLI@v1
+      with:
+        inlineScript: |
+            az storage blob delete-batch --account-name gbwblob1 --auth-mode key -s '$web' --pattern '*.md' --delete-snapshots include
     - name: Purge CDN endpoint
       uses: azure/CLI@v1
       with:
