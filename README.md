@@ -24,6 +24,7 @@
 - Added overwrite to build script
 - Manually adjusted photo to fit frame
 - Configured Azure DNS in place of Namecheap
+- Configured iCloud+ hosted email DNS records
 
 ## Links
 
