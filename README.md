@@ -1,7 +1,8 @@
-# Cloud Resume Project Hub [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/GorillaBearWolf/cloud-resume-azure)
+# CLOUD RESUME PROJECT HUB [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/GorillaBearWolf/cloud-resume-azure)
 
-## Todo
+## TASKS
 
+- [ ] Update Azure creds
 - [ ] LetsEncrypt CSR for root domain
 - [ ] Add web.config file
 - [ ] Create subdomains
@@ -10,10 +11,9 @@
 - [x] Configure Azure DNS in place of Namecheap
 - [x] Configure iCloud+ hosted email DNS records
 
-## Tools
+## TOOLS
 
 - HTML/CSS
-- MacBook Pro/Air, iPad Pro
 - Microsoft Azure
 - Azure Storage Explorer
 - Github.com
@@ -23,7 +23,7 @@
 - FontAwesome
 - Snyk
 
-## Links
+## LINKS
 
 - [Refsnider.me](https://www.refsnider.me)
 - [ACloudGuru Cloud Resume Challenge](https://acloudguru.com/blog/engineering/cloudguruchallenge-your-resume-in-azure)
