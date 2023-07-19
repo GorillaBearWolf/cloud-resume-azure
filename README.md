@@ -5,7 +5,7 @@
 - [ ] LetsEncrypt CSR for root domain
 - [ ] Add web.config file
 - [ ] Create subdomains
-- [x] Update Azure creds
+- [x] Update Azure credentials
 - [x] Add overwrite to build script
 - [x] Adjust photo to fit frame
 - [x] Configure Azure DNS in place of Namecheap
