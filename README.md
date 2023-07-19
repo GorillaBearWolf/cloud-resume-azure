@@ -13,11 +13,12 @@
 
 ## TOOLS
 
-- HTML/CSS
+- HTML/CSS/YAML
 - Microsoft Azure
 - Azure Storage Explorer
 - Github.com
 - Gitpod.io
+- VS Code
 - Namecheap
 - ACloudGuru
 - FontAwesome
