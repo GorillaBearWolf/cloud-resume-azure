@@ -2,6 +2,7 @@
 
 ## TASKS
 
+- [ ] Create IaC environment
 - [ ] LetsEncrypt CSR for root domain
 - [ ] Add web.config file
 - [ ] Create subdomains
