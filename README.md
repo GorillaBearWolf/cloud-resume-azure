@@ -1,4 +1,4 @@
-# CLOUD RESUME PROJECT HUB [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/GorillaBearWolf/cloud-resume-azure)
+# Cloud Resume Project Hub [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/GorillaBearWolf/cloud-resume-azure)
 
 ## TASKS
 
@@ -12,7 +12,7 @@
 - [x] Configure Azure DNS in place of Namecheap
 - [x] Configure iCloud+ hosted email DNS records
 
-## TOOLS
+## Tools
 
 - HTML/CSS/YAML
 - Microsoft Azure
@@ -25,7 +25,7 @@
 - FontAwesome
 - Snyk
 
-## LINKS
+## Links
 
 - [Refsnider.me](https://www.refsnider.me)
 - [ACloudGuru Cloud Resume Challenge](https://acloudguru.com/blog/engineering/cloudguruchallenge-your-resume-in-azure)
