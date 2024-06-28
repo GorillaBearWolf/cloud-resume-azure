@@ -1,0 +1,11 @@
+name: azure-cloud-resume
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+description: Azure-hosted static cloud resume infrastructure
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: azure-python
