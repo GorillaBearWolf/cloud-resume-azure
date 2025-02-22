@@ -1,6 +1,6 @@
 # File: .github/workflows/main.yml
 
-name: Blob storage website CI
+name: refsnider.me CI/CD
 
 on:
   push:
@@ -30,13 +30,13 @@ jobs:
         inlineScript: |
             az storage blob upload-batch --overwrite=true --account-name gbwblob1 --auth-mode key -d '$web' -s .
 
-    - name: Delete .* content
+    - name: Delete hidden content
       uses: azure/CLI@v2
       with:
         inlineScript: |
             az storage blob delete-batch --account-name gbwblob1 --auth-mode key -s '$web' --pattern '.*' --delete-snapshots include
 
-    - name: Delete .md files
+    - name: Delete Markdown files
       uses: azure/CLI@v2
       with:
         inlineScript: |
