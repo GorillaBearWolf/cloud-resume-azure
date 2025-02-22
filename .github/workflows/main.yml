@@ -7,26 +7,26 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: azure/login@v1
+    - uses: azure/login@v2
       with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
     - name: Upload to blob storage
-      uses: azure/CLI@v1
+      uses: azure/CLI@v2
       with:
         inlineScript: |
             az storage blob upload-batch --overwrite=true --account-name gbwblob1 --auth-mode key -d '$web' -s .
     - name: Delete .* content
-      uses: azure/CLI@v1
+      uses: azure/CLI@v2
       with:
         inlineScript: |
             az storage blob delete-batch --account-name gbwblob1 --auth-mode key -s '$web' --pattern '.*' --delete-snapshots include
     - name: Delete .md files
-      uses: azure/CLI@v1
+      uses: azure/CLI@v2
       with:
         inlineScript: |
             az storage blob delete-batch --account-name gbwblob1 --auth-mode key -s '$web' --pattern '*.md' --delete-snapshots include
     - name: Purge CDN endpoint
-      uses: azure/CLI@v1
+      uses: azure/CLI@v2
       with:
         inlineScript: |
             az cdn endpoint purge --content-paths  '/*' --profile-name refsnider-me-cdn --name refsnider-me --resource-group cloud-resume
