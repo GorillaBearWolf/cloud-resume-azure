@@ -124,7 +124,7 @@ body {
     margin-bottom: 1px;
 }
 
-.contactInfo.certifications h4:nth-child(1) {
+.contactInfo.certifications h4:first-child {
     color: #fff;
     font-weight: 500;
 }
@@ -143,7 +143,7 @@ body {
     font-weight: 500;
 }
 
-.contactInfo.education h4:nth-child(2) {
+.contactInfo.education h4:first-child {
     color: #fff;
     font-weight: 500;
 }
@@ -162,7 +162,7 @@ body {
     font-weight: 500;
 }
 
-.contactInfo.awards h4:nth-child(1) {
+.contactInfo.awards h4:first-child {
     color: #fff;
     font-weight: 500;
 }
