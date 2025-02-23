@@ -34,13 +34,13 @@ jobs:
       uses: azure/CLI@v2
       with:
         inlineScript: |
-            az storage blob delete-batch --account-name gbwblob1 --auth-mode key -s '$web' --pattern '.*' --delete-snapshots include
+            az storage blob delete-batch --account-name gbwblob1 --auth-mode key -s '$web' --pattern '.git*' --delete-snapshots include
 
     - name: Delete Markdown files
       uses: azure/CLI@v2
       with:
         inlineScript: |
-            az storage blob delete-batch --account-name gbwblob1 --auth-mode key -s '$web' --pattern '*.md' --delete-snapshots include
+            az storage blob delete-batch --account-name gbwblob1 --auth-mode key -s '$web' --pattern 'README.md' --delete-snapshots include
 
     - name: Purge CDN endpoint
       uses: azure/CLI@v2
