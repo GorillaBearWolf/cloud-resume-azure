@@ -140,7 +140,7 @@ body {
 
 .contactInfo.education h5 {
     color: lightsteelblue;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 .contactInfo.education h4:first-child {
@@ -158,8 +158,8 @@ body {
 }
 
 .contactInfo.awards h5 {
-    color: #03a9f4;
-    font-weight: 500;
+    color: lightsteelblue;
+    font-weight: 300;
 }
 
 .contactInfo.awards h4:first-child {
