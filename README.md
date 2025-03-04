@@ -2,15 +2,13 @@
 
 ## TASKS
 
-- [ ] Create IaC environment
-- [ ] LetsEncrypt CSR for root domain
-- [ ] Add web.config file
-- [ ] Create subdomains
-- [x] Update Azure credentials
-- [x] Add overwrite to build script
-- [x] Adjust photo to fit frame
-- [x] Configure Azure DNS in place of Namecheap
-- [x] Configure iCloud+ hosted email DNS records
+- [ ] IaC environment
+- [ ] CSR for root domain
+- [ ] web.config file
+- [x] Subdomains
+- [x] Credentials
+- [x] Build script
+- [x] Adjust photo
 
 ## Tools
 
