@@ -14,41 +14,41 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout repo
-      uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-    - name: Azure login with OIDC
-      uses: azure/login@v2
-      with:
+      - name: Azure login with OIDC
+        uses: azure/login@v2
+        with:
           client-id: ${{ secrets.AZURE_CLIENT_ID }}
           tenant-id: ${{ secrets.AZURE_TENANT_ID }}
           subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
 
-    - name: Upload to blob storage
-      uses: azure/CLI@v2
-      with:
-        inlineScript: |
+      - name: Upload to blob storage
+        uses: azure/CLI@v2
+        with:
+          inlineScript: |
             az storage blob upload-batch --overwrite=true --account-name gbwblob1 --auth-mode key -d '$web' -s .
 
-    - name: Delete hidden content
-      uses: azure/CLI@v2
-      with:
-        inlineScript: |
+      - name: Delete hidden content
+        uses: azure/CLI@v2
+        with:
+          inlineScript: |
             az storage blob delete-batch --account-name gbwblob1 --auth-mode key -s '$web' --pattern '.git*' --delete-snapshots include
 
-    - name: Delete Markdown files
-      uses: azure/CLI@v2
-      with:
-        inlineScript: |
+      - name: Delete Markdown files
+        uses: azure/CLI@v2
+        with:
+          inlineScript: |
             az storage blob delete-batch --account-name gbwblob1 --auth-mode key -s '$web' --pattern 'README.md' --delete-snapshots include
 
-    - name: Purge CDN endpoint
-      uses: azure/CLI@v2
-      with:
-        inlineScript: |
+      - name: Purge CDN endpoint
+        uses: azure/CLI@v2
+        with:
+          inlineScript: |
             az cdn endpoint purge --content-paths  '/*' --profile-name refsnider-me-cdn --name refsnider-me --resource-group cloud-resume
 
-    - name: logout
-      run: |
-            az logout
-      if: always()
+      - name: logout
+        run: |
+          az logout
+        if: always()
