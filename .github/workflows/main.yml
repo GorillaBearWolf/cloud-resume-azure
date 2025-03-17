@@ -4,7 +4,7 @@ name: refsnider.me CI/CD
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 
 permissions:
   id-token: write
@@ -15,9 +15,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repo
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
-    - name: Azure login
+    - name: Azure login with OIDC
       uses: azure/login@v2
       with:
           client-id: ${{ secrets.AZURE_CLIENT_ID }}
