@@ -1,6 +1,13 @@
+# File: .github/workflows/zap_scan.yml
+
+name: refsnider.me DAST scan
+
 on:
   schedule:
     - cron: 15 3 * * *
+
+permissions: read-all
+
 jobs:
   zap_scan:
     runs-on: ubuntu-latest
