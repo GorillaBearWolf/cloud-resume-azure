@@ -4,7 +4,7 @@ name: refsnider.me DAST scan
 
 on: [push]
 
-permissions: read-all
+permissions: write-all
 
 jobs:
   zap_scan:
