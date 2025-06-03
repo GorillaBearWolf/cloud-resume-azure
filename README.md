@@ -3,8 +3,8 @@
 ## TASKS
 
 - [ ] IaC environment
-- [ ] CSR for root domain
 - [ ] web.config file
+- [x] CSR for root domain
 - [x] Subdomains
 - [x] Credentials
 - [x] Build script
