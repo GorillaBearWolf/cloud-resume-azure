@@ -2,9 +2,7 @@
 
 name: refsnider.me DAST scan
 
-on:
-  schedule:
-    - cron: 15 3 * * *
+on: [push]
 
 permissions: read-all
 
