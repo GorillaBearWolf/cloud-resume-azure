@@ -1,4 +1,5 @@
-# Cloud Resume Project Hub [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/GorillaBearWolf/cloud-resume-azure)
+# Cloud Resume Project Hub
+[![refsnider.me CI/CD](https://github.com/GorillaBearWolf/cloud-resume-azure/actions/workflows/main.yml/badge.svg)](https://github.com/GorillaBearWolf/cloud-resume-azure/actions/workflows/main.yml)
 
 ## TASKS
 
