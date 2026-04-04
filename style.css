@@ -59,7 +59,7 @@ body {
 
 .profileText h2 {
     color: #fff;
-    font-size: 1.5em;
+    text-wrap-mode: nowrap;
     margin-top: 20px;
     text-transform: uppercase;
     text-align: center;
@@ -67,9 +67,10 @@ body {
     line-height: 1.4em;
 }
 
-.profileText h2 span {
-    font-size: 0.8em;
-    font-weight: 200;
+.profileText h3 {
+    font-variant: small-caps;
+    text-align: center;
+    font-weight: 500;
     color: lightsteelblue;
 }
 
