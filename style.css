@@ -61,16 +61,15 @@ body {
     color: #fff;
     text-wrap-mode: nowrap;
     margin-top: 20px;
-    text-transform: uppercase;
     text-align: center;
     font-weight: 600;
     line-height: 1.4em;
+    font-variant: small-caps;
 }
 
 .profileText h3 {
-    font-variant: small-caps;
     text-align: center;
-    font-weight: 500;
+    font-weight: 300;
     color: lightsteelblue;
 }
 
